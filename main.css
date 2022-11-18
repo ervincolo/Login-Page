@@ -1,0 +1,73 @@
+body {
+  
+   background: rgb(148,187,233);
+   background: radial-gradient(circle, rgba(148,187,233,1) 0%, rgba(148,187,233,1) 0%, rgba(148,187,233,1) 6%, rgba(238,174,202,1) 100%);
+ }
+ 
+ p {
+   text-align: center;
+   color: white;
+   font-size: 18px;
+
+ }
+
+ #logo {
+
+   width: 10%;
+    }
+ 
+ input {
+   border-top-style: hidden;
+   border-right-style: hidden;
+   border-left-style: hidden;
+   border-bottom-style: groove;
+   background-color: #eee;
+   border-radius: 7px;
+   padding: 8px;
+   width: 20%;
+   border: none;
+
+ }
+ 
+ .email-password-container {
+   
+     text-align: center;
+     color: white;
+     border: 2px solid #f1f1f1;
+     margin: 5% 15% 5% 15%; /* Top,right,bottom,left*/
+     padding: 2.5%;
+ }
+ 
+ .sign-register-buttons-container {
+
+   text-align: center;
+   margin-top: 20px ;
+   justify-content: space-between;
+    
+ }
+ 
+ #login {
+   
+   color: black;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 11%;
+   border-radius: 7px;
+ 
+ }
+
+ .logos img {
+
+   width: 3%;
+   display: inline;
+   height: auto;
+   padding: 1%;
+   
+ }
+
+ .logos:hover {
+   cursor: pointer;
+ }
+
