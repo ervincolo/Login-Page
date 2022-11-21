@@ -2,6 +2,7 @@ body {
   
    background: rgb(148,187,233);
    background: radial-gradient(circle, rgba(148,187,233,1) 0%, rgba(148,187,233,1) 0%, rgba(148,187,233,1) 6%, rgba(238,174,202,1) 100%);
+   background-attachment: fixed;
  }
  
  p {
@@ -13,8 +14,8 @@ body {
 
  #logo {
 
-   width: 12%;
-    }
+   width: 18%;
+  }
  
  input {
    border-top-style: hidden;
@@ -33,10 +34,13 @@ body {
    
      text-align: center;
      color: white;
-     margin: 5% 15% 5% 15%; /* Top,right,bottom,left*/
+     margin: 5% 20% 5% 20%; /* Top,right,bottom,left*/
      padding: 2.5%;
+     border-radius: 70px;
+     background-color: blueviolet;
+    display: block;
  }
- 
+
  .sign-register-buttons-container {
 
    text-align: center;
@@ -61,13 +65,13 @@ body {
  #forgotPassword {
 
    color: black;
-   padding: 14px 7.5px;
+   padding: 14px 7px;
    margin: 8px 0;
    border: none;
    cursor: pointer;
-   width: 10%;
    border-radius: 7px;
    margin-left: 13px;
+   width: 12%;
 
  }
 
@@ -91,3 +95,12 @@ body {
    cursor: pointer;
  }
 
+
+ #login-logo-username {
+
+  width: 25px;
+  display: flex;
+  margin-left: 100px;
+  
+
+ }
