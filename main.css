@@ -1,96 +1,99 @@
 body {
-   background: rgb(148,187,233);
-   background: radial-gradient(circle, rgba(148,187,233,1) 0%, rgba(148,187,233,1) 0%, rgba(148,187,233,1) 6%, rgba(238,174,202,1) 100%);
-   background-attachment: fixed;
- }
- 
- p {
-   text-align: center;
-   color: white;
-   font-size: 20px;
+  background: rgb(148,187,233);
+  background: radial-gradient(circle, rgba(148,187,233,1) 0%, rgba(148,187,233,1) 0%, rgba(148,187,233,1) 6%, rgba(238,174,202,1) 100%);
+  background-attachment: fixed;
+}
 
- }
+p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
 
- #logo {
+}
 
-   width: 20%;
-  }
- 
- input {
-   border-top-style: hidden;
-   border-right-style: hidden;
-   border-left-style: hidden;
-   border-bottom-style: groove;
-   background-color: #eee;
-   border-radius: 7px;
-   padding: 9px;
-   width: 30%;
-   border: none;
-   text-align: left;
+#logo {
 
+  width: 20%;
+  height: 10;
+  border: 2px solid lightpink;
+  border-radius: 50%;
  }
 
- .email-password-container {
-     text-align: center;
-     color: white;
-     margin: 5% 20% 5% 20%; /* Top,right,bottom,left*/
-     padding: 2.5%;
-     border-radius: 100px;
-     background-color: rgb(93, 63, 211, 20% );  /* % = opacity level, 100% max*/
-     display: block; 
- }
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: #eee;
+  border-radius: 7px;
+  padding: 9px;
+  width: 35%;
+  border: none;
+  text-align: left;
 
- .sign-register-buttons-container {
-   text-align: center;
-   margin-top: 20px ;
-   justify-content: space-between;
-   align-items: center;
-    
- }
- 
- #login {
-   color: black;
-   padding: 14px 20px;
-   margin: 8px 0;
-   border: none;
-   cursor: pointer;
-   width: 11%;
-   border-radius: 7px;
- 
- }
+}
 
- #forgotPassword {
-   color: black;
-   padding: 14px 7px;
-   margin: 8px 0;
-   border: none;
-   cursor: pointer;
-   border-radius: 7px;
-   margin-left: 13px;
-   width: 12%;
+.email-password-container {
+    text-align: center;
+    color: white;
+    margin: 5% 20% 5% 20%; /* Top,right,bottom,left*/
+    padding: 2.5%;
+    border-radius: 100px;
+    background-color: rgb(93, 63, 211, 20% );  /* % = opacity level, 100% max*/
+    display: block; 
+}
 
- }
-
- #forgotPassword:hover {
-  color: purple;
-
- }  
-
- .logos img {
-   width: 3%;
-   display: inline;
-   height: auto;
-   padding: 1%;
+.sign-register-buttons-container {
+  text-align: center;
+  margin-top: 20px ;
+  justify-content: space-between;
+  align-items: center;
    
- }
+}
 
- .logos:hover {
-   cursor: pointer;
- }
+#login {
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 11%;
+  border-radius: 7px;
 
- #login-logo-username {
-  width: 25px;
-  display: flex;
-  margin-left: 100px;
+}
 
- }
+#forgotPassword {
+  color: black;
+  padding: 14px 7px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  margin-left: 13px;
+  width: 12%;
+
+}
+
+#forgotPassword:hover {
+ color: purple;
+
+}  
+
+.logos img {
+  width: 3%;
+  display: inline;
+  height: auto;
+  padding: 1%;
+  
+}
+
+.logos:hover {
+  cursor: pointer;
+}
+
+#login-logo-username {
+ width: 25px;
+ display: flex;
+ margin-left: 100px;
+
+}
