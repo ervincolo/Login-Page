@@ -44,7 +44,7 @@ input {
   margin: 5% 20% 5% 20%; /* Top,right,bottom,left*/
   padding: 2.5%;
   border-radius: 100px;
-  background-color: rgb(93, 63, 211, 89% );  /* % = opacity level, 100% max*/
+  background-color: rgb(93, 63, 211, 80% );  /* % = opacity level, 100% max*/
   display: block; 
 }
 
